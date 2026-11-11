@@ -1,0 +1,27 @@
+---
+version: 2.0.2
+title: story list loaded
+---
+BORDER|╭─ Hacker News Explorer ─────────────────────────────────────────────────────╮
+META  |│ [1:Top]  2:New   3:Best   4:Ask HN   5:Show HN                             │
+BORDER|├────────────────────────────────────────────────────────────────────────────┤
+SELECT|│   1.  260  A small story about terminals                         93c    1h │
+PLAIN |│   2.   48  Another story with a rather long title that needs …    8c    2h │
+PLAIN |│   3.   12  Ask HN: What are you working on?                       0c    1m │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+HINT  |│ j/k:Navigate  l/→:Detail  o:Open  /:Search  r:Reload  q:Quit               │
+BORDER|╰────────────────────────────────────────────────────────────────────────────╯

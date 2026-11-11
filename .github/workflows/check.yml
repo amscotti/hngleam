@@ -1,0 +1,58 @@
+name: check
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  test:
+    name: Gleam 1.19.2 / OTP 28
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: erlef/setup-beam@v1
+        with:
+          otp-version: "28"
+          gleam-version: "1.19.2"
+
+      - run: gleam deps download
+      - run: gleam format --check src test
+      - run: gleam build --warnings-as-errors
+      - run: gleam test
+
+      - name: Reject panic, todo, echo, and let assert in src
+        run: |
+          if grep -RnE '\b(let assert|panic|todo|echo)\b' src; then
+            echo "src/ must not use let assert, panic, todo, or echo."
+            exit 1
+          fi
+
+      - name: Build the escript
+        run: gleam run -m gleescript
+
+      - name: The packaged program exits when there is no terminal
+        timeout-minutes: 1
+        run: |
+          set +e
+          output=$(./hngleam 2>&1)
+          status=$?
+          set -e
+          if [ "$status" -ne 1 ]; then
+            echo "expected exit 1, got $status"
+            printf '%s\n' "$output"
+            exit 1
+          fi
+          printf '%s\n' "$output" | grep -F "hngleam needs a terminal"
+
+      - uses: actions/upload-artifact@v7
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        with:
+          name: hngleam
+          path: hngleam
+          if-no-files-found: error
+          retention-days: 14

@@ -1,0 +1,27 @@
+---
+version: 2.0.2
+title: search editing
+---
+BORDER|╭─ Hacker News Explorer ─────────────────────────────────────────────────────╮
+META  |│ [1:Top]  2:New   3:Best   4:Ask HN   5:Show HN    [Search]                 │
+BORDER|├────────────────────────────────────────────────────────────────────────────┤
+TITLE |│ Search: gleam█                                                             │
+PLAIN |│                                                                            │
+HINT  |│ Enter to search · Esc to cancel · Backspace to delete                      │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+HINT  |│ Type to search  Enter:Search  Esc:Cancel                                   │
+BORDER|╰────────────────────────────────────────────────────────────────────────────╯

@@ -1,0 +1,27 @@
+---
+version: 2.0.2
+title: feed error
+---
+BORDER|╭─ Hacker News Explorer ─────────────────────────────────────────────────────╮
+META  |│ [1:Top]  2:New   3:Best   4:Ask HN   5:Show HN                             │
+BORDER|├────────────────────────────────────────────────────────────────────────────┤
+ERROR |│ Couldn't reach Hacker News (request timed out). Press r to retry.          │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+HINT  |│ j/k:Navigate  l/→:Detail  o:Open  /:Search  r:Reload  q:Quit               │
+BORDER|╰────────────────────────────────────────────────────────────────────────────╯

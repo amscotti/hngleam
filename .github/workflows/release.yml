@@ -1,0 +1,47 @@
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  check:
+    permissions:
+      contents: read
+      actions: write
+    uses: ./.github/workflows/check.yml
+
+  publish:
+    needs: check
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/download-artifact@v7
+        with:
+          name: hngleam
+          path: dist
+
+      - name: Publish the escript
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          chmod +x dist/hngleam
+          cat > release-notes.md <<'EOF'
+          The `hngleam` escript needs Erlang/OTP 28 or newer.
+
+          ```
+          chmod +x hngleam
+          ./hngleam
+          ```
+          EOF
+          gh release create "$GITHUB_REF_NAME" dist/hngleam \
+            --title "$GITHUB_REF_NAME" \
+            --notes-file release-notes.md \
+            --verify-tag

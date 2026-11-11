@@ -1,0 +1,27 @@
+---
+version: 2.0.2
+title: search with no results
+---
+BORDER|╭─ Hacker News Explorer ─────────────────────────────────────────────────────╮
+META  |│ [1:Top]  2:New   3:Best   4:Ask HN   5:Show HN    [Search]                 │
+BORDER|├────────────────────────────────────────────────────────────────────────────┤
+PLAIN |│ No results found for "zzzz"                                                │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+HINT  |│ j/k:Navigate  l/→:Detail  o:Open  /:Edit  r:Retry  Esc:Back  q:Quit        │
+BORDER|╰────────────────────────────────────────────────────────────────────────────╯

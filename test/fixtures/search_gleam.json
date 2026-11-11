@@ -1,0 +1,529 @@
+{
+  "exhaustive": {
+    "nbHits": true,
+    "typo": true
+  },
+  "exhaustiveNbHits": true,
+  "exhaustiveTypo": true,
+  "hits": [
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "tymscar"
+        },
+        "title": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "I tried <em>Gleam</em> for Advent of Code"
+        },
+        "url": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "https://blog.tymscar.com/posts/<em>gleam</em>aoc2025/"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_tymscar",
+        "story_46255991"
+      ],
+      "author": "tymscar",
+      "children": [
+        46256316,
+        46256350,
+        46256364,
+        46256368,
+        46256512,
+        46256525,
+        46256631,
+        46256889,
+        46256999,
+        46257140,
+        46257240,
+        46257483,
+        46258962,
+        46259201,
+        46259426,
+        46260252,
+        46264184,
+        46264334,
+        46366764
+      ],
+      "created_at": "2025-12-13T17:00:14Z",
+      "created_at_i": 1765645214,
+      "num_comments": 214,
+      "objectID": "46255991",
+      "points": 351,
+      "story_id": 46255991,
+      "title": "I tried Gleam for Advent of Code",
+      "updated_at": "2026-11-09T18:46:22Z",
+      "url": "https://blog.tymscar.com/posts/gleamaoc2025/"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "andrenth"
+        },
+        "title": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "<em>Gleam</em>: A statically typed language for the Erlang VM"
+        },
+        "url": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "https://<em>gleam</em>.run/"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_andrenth",
+        "story_22902462"
+      ],
+      "author": "andrenth",
+      "children": [
+        22902941,
+        22902949,
+        22903083,
+        22903399,
+        22903502,
+        22903771,
+        22903975,
+        22904042,
+        22904428,
+        22904437,
+        22904481,
+        22904816,
+        22904885,
+        22904925,
+        22905277,
+        22905721,
+        22905829,
+        22906059,
+        22906164,
+        22906227,
+        22906342,
+        22906945,
+        22907115
+      ],
+      "created_at": "2020-04-17T20:04:36Z",
+      "created_at_i": 1587153876,
+      "num_comments": 109,
+      "objectID": "22902462",
+      "points": 331,
+      "story_id": 22902462,
+      "title": "Gleam: A statically typed language for the Erlang VM",
+      "updated_at": "2026-09-28T12:15:05Z",
+      "url": "https://gleam.run/"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "ljlolel"
+        },
+        "title": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "<em>Gleam</em>: a type safe language on the Erlang VM"
+        },
+        "url": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "https://<em>gleam</em>.run/"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_ljlolel",
+        "story_38183454"
+      ],
+      "author": "ljlolel",
+      "children": [
+        38184288,
+        38184294,
+        38184461,
+        38184547,
+        38184608,
+        38184666,
+        38185002,
+        38185257,
+        38185661,
+        38186215,
+        38186314,
+        38186397,
+        38186428,
+        38186764,
+        38187452,
+        38187901,
+        38188328,
+        38188559,
+        38188911,
+        38189468,
+        38190546
+      ],
+      "created_at": "2023-11-07T21:53:29Z",
+      "created_at_i": 1699394009,
+      "num_comments": 236,
+      "objectID": "38183454",
+      "points": 325,
+      "story_id": 38183454,
+      "title": "Gleam: a type safe language on the Erlang VM",
+      "updated_at": "2025-10-05T06:47:11Z",
+      "url": "https://gleam.run/"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "ingve"
+        },
+        "title": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "<em>Gleam</em> doesn't compile to Erlang source anymore"
+        },
+        "url": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "https://<em>gleam</em>.run/news/<em>gleam</em>-doesnt-compile-to-erlang-source-anymore/"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_ingve",
+        "story_49975619"
+      ],
+      "author": "ingve",
+      "children": [
+        49976491,
+        49976749,
+        49976857,
+        49976968,
+        49977014,
+        49977062,
+        49977289,
+        49977312,
+        49977713,
+        49977913,
+        49977966,
+        49978159,
+        49978439,
+        49978937,
+        49979527,
+        49979533,
+        49979838,
+        49980106,
+        49980567,
+        49981091,
+        49981539,
+        49982785,
+        49984335,
+        49984460,
+        49984537,
+        49986366
+      ],
+      "created_at": "2026-10-06T08:08:20Z",
+      "created_at_i": 1791274100,
+      "num_comments": 140,
+      "objectID": "49975619",
+      "points": 318,
+      "story_id": 49975619,
+      "title": "Gleam doesn't compile to Erlang source anymore",
+      "updated_at": "2026-11-09T05:34:50Z",
+      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "lpil"
+        },
+        "title": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "<em>Gleam</em> 0.14 \u2013 Type-safe language for the Erlang VM"
+        },
+        "url": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "https://<em>gleam</em>.run/news/<em>gleam</em>-v0.14-released/"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_lpil",
+        "story_26185690"
+      ],
+      "author": "lpil",
+      "children": [
+        26185950,
+        26186466,
+        26186855,
+        26188002,
+        26189505
+      ],
+      "created_at": "2021-02-18T21:16:45Z",
+      "created_at_i": 1613683005,
+      "num_comments": 51,
+      "objectID": "26185690",
+      "points": 280,
+      "story_id": 26185690,
+      "title": "Gleam 0.14 \u2013 Type-safe language for the Erlang VM",
+      "updated_at": "2025-01-05T15:50:49Z",
+      "url": "https://gleam.run/news/gleam-v0.14-released/"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Alupis"
+        },
+        "title": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "The <em>Gleam</em> Programming Language"
+        },
+        "url": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "https://<em>gleam</em>.run/"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_Alupis",
+        "story_46611667"
+      ],
+      "author": "Alupis",
+      "children": [
+        46612408,
+        46612454,
+        46612754,
+        46612792,
+        46612907,
+        46613290,
+        46613427,
+        46613431,
+        46613473,
+        46613526,
+        46613587,
+        46613662,
+        46613698,
+        46613754,
+        46613949,
+        46613988,
+        46614005,
+        46614633,
+        46614782,
+        46615602,
+        46615899,
+        46616386,
+        46616735,
+        46617290,
+        46617844
+      ],
+      "created_at": "2026-01-14T02:49:25Z",
+      "created_at_i": 1768358965,
+      "num_comments": 177,
+      "objectID": "46611667",
+      "points": 273,
+      "story_id": 46611667,
+      "title": "The Gleam Programming Language",
+      "updated_at": "2026-11-09T21:01:38Z",
+      "url": "https://gleam.run/"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "crowdhailer"
+        },
+        "title": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "<em>Gleam</em> Is Pragmatic"
+        },
+        "url": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "https://blog.drewolson.org/<em>gleam</em>-is-pragmatic/"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_crowdhailer",
+        "story_41758915"
+      ],
+      "author": "crowdhailer",
+      "children": [
+        41759048,
+        41759087,
+        41759143,
+        41759154,
+        41759235,
+        41759321,
+        41759704,
+        41759775,
+        41760836,
+        41762215,
+        41762499,
+        41763310,
+        41763776,
+        41763978,
+        41764266,
+        41768365,
+        41775043
+      ],
+      "created_at": "2024-10-06T18:15:23Z",
+      "created_at_i": 1728238523,
+      "num_comments": 174,
+      "objectID": "41758915",
+      "points": 250,
+      "story_id": 41758915,
+      "title": "Gleam Is Pragmatic",
+      "updated_at": "2026-06-14T10:12:25Z",
+      "url": "https://blog.drewolson.org/gleam-is-pragmatic/"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "nerdypepper"
+        },
+        "title": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "<em>Gleam</em> Is Now on Tangled"
+        },
+        "url": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": [
+            "gleam"
+          ],
+          "value": "https://tangled.org/<em>gleam</em>.run/<em>gleam</em>"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_nerdypepper",
+        "story_48959143"
+      ],
+      "author": "nerdypepper",
+      "children": [
+        48959238,
+        48959242,
+        48959298,
+        48959385,
+        48959509,
+        48959598,
+        48959715,
+        48959880,
+        48959885,
+        48959921,
+        48960035,
+        48960095,
+        48960237,
+        48960476,
+        48960657,
+        48961066,
+        48961275,
+        48961493,
+        48961510,
+        48962056,
+        48962098,
+        48962544,
+        48962674,
+        48962948,
+        48963544,
+        48964008,
+        48964336,
+        48964641,
+        48966033
+      ],
+      "created_at": "2026-07-18T15:44:04Z",
+      "created_at_i": 1784389444,
+      "num_comments": 154,
+      "objectID": "48959143",
+      "points": 249,
+      "story_id": 48959143,
+      "title": "Gleam Is Now on Tangled",
+      "updated_at": "2026-11-02T11:30:27Z",
+      "url": "https://tangled.org/gleam.run/gleam"
+    }
+  ],
+  "hitsPerPage": 8,
+  "nbHits": 1197,
+  "nbPages": 125,
+  "page": 0,
+  "params": "query=gleam&tags=story&hitsPerPage=8&advancedSyntax=true&analyticsTags=backend",
+  "processingTimeMS": 4,
+  "processingTimingsMS": {
+    "_request": {
+      "roundTrip": 23
+    },
+    "fetch": {
+      "query": 2,
+      "total": 3
+    },
+    "total": 4
+  },
+  "query": "gleam",
+  "serverTimeMS": 4
+}

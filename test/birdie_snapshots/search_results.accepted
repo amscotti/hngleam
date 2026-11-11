@@ -1,0 +1,27 @@
+---
+version: 2.0.2
+title: search results
+---
+BORDER|╭─ Hacker News Explorer ─────────────────────────────────────────────────────╮
+META  |│ [1:Top]  2:New   3:Best   4:Ask HN   5:Show HN    [Search]                 │
+BORDER|├────────────────────────────────────────────────────────────────────────────┤
+SELECT|│   1.  325  Gleam: a statically typed language for the Erlang …  236c    1d │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+HINT  |│ j/k:Navigate  l/→:Detail  o:Open  /:Edit  r:Retry  Esc:Back  q:Quit        │
+BORDER|╰────────────────────────────────────────────────────────────────────────────╯

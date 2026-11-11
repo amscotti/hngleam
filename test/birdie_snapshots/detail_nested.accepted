@@ -1,0 +1,27 @@
+---
+version: 2.0.2
+title: detail nested
+---
+BORDER|╭─ Hacker News Explorer ─────────────────────────────────────────────────────╮
+META  |│ [1:Top]  2:New   3:Best   4:Ask HN   5:Show HN                             │
+BORDER|├────────────────────────────────────────────────────────────────────────────┤
+TITLE |│ A story worth reading                                                      │
+META  |│ 260 points | someone | 1h | 93 comments                                    │
+META  |│ https://example.com/post                                                   │
+BORDER|│ ────────────────────────────────────────────────────────────────────────── │
+META  |│ ↩ Replying to alice (depth 2)                                              │
+PLAIN |│   The parent comment.                                                      │
+PLAIN |│                                                                            │
+SELECT|│ ▌ bob  10m                                                                 │
+PLAIN |│   A reply that disagrees.                                                  │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+PLAIN |│                                                                            │
+HINT  |│ j/k:Navigate  l/→:Replies  o:Open  c:HN  h/←:Back  1-5:Feeds  q:Quit       │
+BORDER|╰────────────────────────────────────────────────────────────────────────────╯
